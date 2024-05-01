@@ -1,0 +1,13 @@
+#img_about_us {
+  width: 50%;
+  margin-left: 300px;
+}
+.panel-default > .panel-heading {
+  color: white;
+  background-color: orange;
+  border-color: orange;
+  font-size: 15px;
+}
+#info_text {
+  font-size: 20px;
+}
