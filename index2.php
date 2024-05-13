@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/container.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <style>
     .info_Product {
         text-align: center;
@@ -103,8 +104,8 @@
     include("./views/login_form.php");  
     include("./views/config.php");
     include("./views/product_info.php");
-    include("./views/header.php");
-    include("./views/container.php");
+    include("./views/user/header2.php");
+    include("./views/user/container2.php");
     include("./views/footer.php");
     ?>
 

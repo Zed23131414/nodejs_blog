@@ -32,10 +32,15 @@
             <div class="foot-col">
                 <h4>Follow Us</h4>
                 <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#">
+                        <i class="fa fa-facebook-square" style="font-size:36px"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-instagram" style="font-size:36px"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-twitter" style="font-size:36px"></i>
+                    </a>
                 </div>
             </div>
         </div>

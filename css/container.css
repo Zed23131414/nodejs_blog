@@ -11,3 +11,8 @@
 #info_text {
   font-size: 20px;
 }
+.info_Product {
+  text-align: center;
+  color: wheat;
+  background: black;
+}

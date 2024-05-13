@@ -1,16 +1,8 @@
-<?php
-    if(isset($_POST['submit'])) {
-        $name = $_POST['username'];
-        $email = $_POST['$email'];
-        $password = $_POST['$password'];
-        $cppass = $_POST['$confirmPassword'];
-    }
-?>
 <div id="cart">
     <div class="name">CART</div>
     <div class="listCart"></div>
 </div>
-<nav class=" navbar navbar-inverse">
+<nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -47,10 +39,11 @@
                 <span class="glyphicon glyphicon-shopping-cart"></span> Cart
             </a>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#" type="button" data-toggle="modal" data-target="#signup"><span
-                            class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li><a href="#" type="button" data-toggle="modal" data-target="#login"><span
-                            class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li>
+                    <?php $a = $_GET['username']?>
+                    <a type="button">Hello <i><?php echo $a?></i></a>
+                </li>
+                <li><a type="button" class="" href="./index.php">Logout</a></li>
             </ul>
         </div>
         <div id="signup" class="modal fade" role="dialog">

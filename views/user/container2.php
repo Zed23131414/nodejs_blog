@@ -1,3 +1,6 @@
+<div class="cart">
+
+</div>
 <div class="container" style="position: relative;">
     <img class="img-responsive" src="./Images/banner.jpg" alt="">
     <div class="row" id="bestseller">
@@ -27,7 +30,7 @@
                 </div>
             </div>
         </div>
-        <div class=" col-md-3">
+        <div class=" col-md-3" id="list">
             <div class="panel-group" id="item" data-key="2">
                 <div class="panel panel-default">
                     <div class="panel-heading text-center">Dragon Ball</div>
@@ -44,7 +47,7 @@
                         <button class="add" onclick="addToCart('ABC123', 'Naruto', 150)">🛒</button>
                         <button id="show_order" onclick="showOrderForm('Dragon ball',150)">Mua</button>
                         <button id="show_info" onclick="showProductInfo(2)">Xem thông tin</button>
-                        <button class="remove" onclick="Remove(1)"><i class="glyphicon glyphicon-trash"></i></button>
+                        <button class="remove" onclick="Remove(2)"><i class="glyphicon glyphicon-trash"></i></button>
                     </div>
                 </div>
             </div>
@@ -456,24 +459,16 @@
                 <div class="panel panel-default">
                     <div class="panel-heading text-center">Thông tin về cửa hàng sách</div>
                     <div class="panel-body text-center" id="info_text"><img id="img_about_us"
-                            src="./images/background_aboutus.jpg" class="img-responsive" alt="naruto">Cửa
-                        hàng sách
+                            src="./images/background_aboutus.jpg" class="img-responsive" alt="naruto">Cửa hàng sách
                         BookStore MNG chuyên cung cấp những sản
                         phẩm chất
-                        lượng phù hợp với mọi lứa tuổi mong muốn tìm hiểu về sách, cũng như là tín đồ cho
-                        những
-                        người
-                        yêu thích sách có thể đọc thử quyển sách trước khi đưa ra quyết định có mua sản phẩm
-                        hay
-                        không.
-                        Rất mong các bạn có thể góp ý, cũng như là ủng hộ những ý tưởng mới để shop có thể
-                        hoàn
-                        thiện và
+                        lượng phù hợp với mọi lứa tuổi mong muốn tìm hiểu về sách, cũng như là tín đồ cho những người
+                        yêu thích sách có thể đọc thử quyển sách trước khi đưa ra quyết định có mua sản phẩm hay không.
+                        Rất mong các bạn có thể góp ý, cũng như là ủng hộ những ý tưởng mới để shop có thể hoàn thiện và
                         phát triển hơn trong tương lại để phục vụ mọi người một cách tốt nhất
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 </div>
